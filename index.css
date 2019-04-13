@@ -1,0 +1,55 @@
+.watch{
+    background-color: #000000;
+    font-size: 32px;
+    width: 440px;
+    height: 487px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/* 相对watch定位 */
+.screen{
+    /* background-color: red; */
+    width: 59.2%;
+    height: 74%;
+    left: 18%;
+    position: absolute;
+    top: 13%;
+}
+/* .dial{
+    border: 1px solid #000;
+    border-radius: 50%;
+} */ 
+.dial.move{
+    width: 8em;
+    height: 8em;
+    /* 父级非static元素 */
+    position: absolute;
+    /* background-color: darkgreen; */
+}
+.dial-container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4em;
+    background-color: darkgreen;
+}
+.wedge{
+    width: 4em;
+    height: 8em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.container1{
+    left: 4em;
+}
+.container2{
+    left: 0;
+}
+.container1 .wedge{
+    /* 左上 右上 右下 左上 */
+    border-radius: 8em 0 0 8em;
+    background-color: orangered;
+}
